@@ -30,13 +30,13 @@ To ensure high performance on local hardware, the following tools were selected:
 ├── docs            # User manuals and training materials
 └── reports         # Generated exports for the client
 
-## 4. Key Takeaways & Conclusions (Conclusiones)
+**## 4. Key Takeaways & Conclusions (Conclusiones)**
 
 - **Data Integrity & Scalability:** Successfully migrated **1,514 messy real estate records** from flat Excel files into a relational SQLite database. This eliminates data redundancy and prevents accidental formatting overwrites common in Excel.
 - **Performance Optimization:** Moving the data layer to SQLite drastically reduced search query times. On local hardware (Lubuntu minimal specs), queries filter thousands of records instantly, a task that previously caused spreadsheet lags.
 - **Business Value (Appraisal Efficiency):** Real estate appraisers can now find historical comparable properties in seconds using dynamic filters, reducing the "comparable matching phase" of valuation by an estimated 70%.
 
-## 5. Technical Recommendations for Future Phases
+**## 5. Technical Recommendations for Future Phases**
 
 1. **Automated Valuation Model (AVM):** The structured data is now perfectly ready to implement a Machine Learning regression pipeline (e.g., Scikit-Learn) to predict property prices based on `bldg_size_sqft`, `parish_region`, and `property_type`.
 2. **Cloud Migration Prep:** Since SQLite is used via dynamic standard pathing, this application is fully compatible to be containerized (Docker) and deployed on cloud services like Streamlit Community Cloud or AWS.
