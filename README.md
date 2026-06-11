@@ -44,8 +44,14 @@ To ensure high performance on local hardware, the following tools were selected:
 3. **Geospatial Integration:** Adding latitude and longitude mapping (using Leaflet or Streamlit Maps) would allow the client to visually locate property clusters on a digital map.
 
 ## 6. Application Preview
-Main Dashboard (Figure 1: image_2.png)
-Add your first image code here (drag image_2.png into the editor)
 
-Figure 1: This view highlights the app's dark-mode interface and powerful search. It shows 17 matching properties found in 'Cit>
+### Main Search Dashboard
+<img width="1306" height="648" alt="Screenshot from 2026-06-10 21-57-40" src="https://github.com/user-attachments/assets/52fbf524-e162-4e3c-a965-7a110da0b416" />
+
+*Figure 1: Streamlit search UI displaying dynamic metrics, property counts, and interactive data table.*
+
+### Targeted Filtering Engine
+<img width="1306" height="648" alt="Screenshot from 2026-06-10 21-57-40" src="https://github.com/user-attachments/assets/44762c4a-23e3-44b9-bf54-cc4b4150a6c7" />
+
+*Figure 2: Real-time query results showing automated calculations for property sub-segments.*
 
