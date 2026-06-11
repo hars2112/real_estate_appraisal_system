@@ -29,7 +29,7 @@ To ensure high performance on local hardware, the following tools were selected:
 ├── src             # Source code for the search interface
 ├── docs            # User manuals and training materials
 └── reports         # Generated exports for the client
-`` ``` ``
+```
 
 ## 4. Key Takeaways & Conclusions (Conclusiones)
 
@@ -42,13 +42,3 @@ To ensure high performance on local hardware, the following tools were selected:
 1. **Automated Valuation Model (AVM):** The structured data is now perfectly ready to implement a Machine Learning regression pipeline (e.g., Scikit-Learn) to predict property prices based on `bldg_size_sqft`, `parish_region`, and `property_type`.
 2. **Cloud Migration Prep:** Since SQLite is used via dynamic standard pathing, this application is fully compatible to be containerized (Docker) and deployed on cloud services like Streamlit Community Cloud or AWS.
 3. **Geospatial Integration:** Adding latitude and longitude mapping (using Leaflet or Streamlit Maps) would allow the client to visually locate property clusters on a digital map.
-
----
-
-### English Practice (Markdown Bugs)
-
-* **Code Block Closure:** The triple backticks (`` ``` ``) act as a toggle switch. If you don't close them, everything else becomes code text.
-* **Escaped Syntax:** When markdown features (like headings `##` or bolding `**`) are stuck inside a code block, their functionality is "escaped" or ignored, turning them into plain characters.
-* **Uniform Layout:** By switching Section 5 from numbers (`1.`) to bullets (`*`), the entire document now shares the exact same hierarchy across all chapters.
-
-Copia este bloque completo, pégalo en el editor y verás cómo el recuadro gris se corta justo donde termina la carpeta `reports`, permitiendo que el 4 y el 5 brillen como títulos reales fuera del bloque.
