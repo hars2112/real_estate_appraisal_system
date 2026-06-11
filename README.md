@@ -42,3 +42,10 @@ To ensure high performance on local hardware, the following tools were selected:
 1. **Automated Valuation Model (AVM):** The structured data is now perfectly ready to implement a Machine Learning regression pipeline (e.g., Scikit-Learn) to predict property prices based on `bldg_size_sqft`, `parish_region`, and `property_type`.
 2. **Cloud Migration Prep:** Since SQLite is used via dynamic standard pathing, this application is fully compatible to be containerized (Docker) and deployed on cloud services like Streamlit Community Cloud or AWS.
 3. **Geospatial Integration:** Adding latitude and longitude mapping (using Leaflet or Streamlit Maps) would allow the client to visually locate property clusters on a digital map.
+
+## 6. Application Preview
+Main Dashboard (Figure 1: image_2.png)
+Add your first image code here (drag image_2.png into the editor)
+
+Figure 1: This view highlights the app's dark-mode interface and powerful search. It shows 17 matching properties found in 'Cit>
+
