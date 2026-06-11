@@ -29,6 +29,7 @@ To ensure high performance on local hardware, the following tools were selected:
 ├── src             # Source code for the search interface
 ├── docs            # User manuals and training materials
 └── reports         # Generated exports for the client
+`` ``` ``
 
 ## 4. Key Takeaways & Conclusions (Conclusiones)
 
