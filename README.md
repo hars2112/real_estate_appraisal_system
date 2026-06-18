@@ -51,7 +51,7 @@ To ensure high performance on local hardware, the following tools were selected:
 *Figure 1: Streamlit search UI displaying dynamic metrics, property counts, and interactive data table.*
 
 ### Targeted Filtering Engine
-<img width="1306" height="648" alt="Screenshot from 2026-06-10 21-57-40" src="https://github.com/user-attachments/assets/44762c4a-23e3-44b9-bf54-cc4b4150a6c7" />
+<img width="1306" height="648" alt="Screenshot from 2026-06-10 21-53-23" src="https://github.com/user-attachments/assets/9d7fdce8-f8e7-42ab-bd3c-f1fcde862be8" />
 
 *Figure 2: Real-time query results showing automated calculations for property sub-segments.*
 
